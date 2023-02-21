@@ -4,10 +4,7 @@
 	box-sizing: border-box;
 }
 
-:root {
-	--white: rgb(248, 248, 248);
-	--black: rgba(5, 5, 5);
-}
+
 
 html {
 	font-family: 'Roboto', sans-serif;
