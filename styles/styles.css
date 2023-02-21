@@ -6,6 +6,21 @@
 
 html {
 	font-family: 'Roboto', sans-serif;
+	width: 100vw;
+	overflow: hidden;
+}
+
+body {
+	max-width: 100vw;
+	overflow: hidden;
+}
+
+a {
+	color: var(--color-black);
+	text-decoration: none;
+}
+.a--white {
+	color: var(--color-white);
 }
 
 .nav {
@@ -14,6 +29,139 @@ html {
 	align-items: center;
 	height: 10vh;
 	width: 100vw;
-	background-color: var(--black);
-	color: var(--white);
+	background-color: var(--color-grey);
+	color: var(--color-white);
+}
+
+/*GENERAL COMPONENTS*/
+
+.button {
+	font-weight: 700;
+	letter-spacing: 1px;
+	border-radius: var(--gap--small);
+	border: none;
+	color: var(--color-white);
+	background-color: #c6c6c6;
+	padding: var(--gap--large);
+}
+
+.button--primary {
+	background-color: var(--color-primary);
+	width: 35%;
+	z-index: 1;
+}
+
+.button--secondary {
+	background-color: var(--color-black);
+	width: 35%;
+	margin-left: -0.5rem;
+	z-index: 0;
+}
+
+/* IMAGE BACKGROUND */
+.cv-section.background {
+	width: 100vw;
+	height: auto;
+	margin-top: -1.7rem;
+	margin-left: 8rem;
+	object-fit: cover;
+	position: fixed;
+	z-index: -1;
+	opacity: 70%;
+	filter: blur(0.075rem);
+}
+
+.background-image {
+	height: 20rem;
+	width: auto;
+}
+
+/*HERO SECTION*/
+
+/* .hero {
+	margin-top: 12rem;
+} */
+
+.hero__title {
+	font-weight: 700;
+	letter-spacing: 1.4px;
+}
+
+.hero__title--highlight {
+	color: var(--color-primary);
+}
+
+.hero__text-paragraph {
+	font-weight: 800;
+	line-height: 22px;
+	font-size: var(--font-size-default);
+}
+
+.hero__text-column-wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	gap: var(--space--small);
+}
+
+.hero__text-column {
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+}
+
+.hero__text--link {
+	font-weight: 300;
+	font-size: var(--font-size-small);
+}
+
+.hero__button-wrapper {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	width: 100%;
+}
+
+/* CONTACT SECTION */
+.card {
+	z-index: -1;
+	background-color: var(--color-primary);
+	border: none;
+	border-radius: 0.5rem;
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	align-items: center;
+	justify-content: start;
+	padding-top: 1.5rem;
+	width: 100%;
+	height: 20rem;
+}
+
+.contact-item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+	height: 6rem;
+}
+
+.contact-title {
+	font-size: 2rem;
+	letter-spacing: 0.3rem;
+}
+
+.contact-subtitle {
+	font-size: 1.25rem;
+	font-weight: 800rem;
+}
+
+.contact-description {
+	font-size: 1rem;
+
+}
+
+.contact-logos {
+	width: 2rem;
+	height: auto;
 }
