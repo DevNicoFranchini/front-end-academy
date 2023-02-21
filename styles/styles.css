@@ -1,0 +1,24 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--white: rgb(248, 248, 248);
+	--black: rgba(5, 5, 5);
+}
+
+html {
+	font-family: 'Roboto', sans-serif;
+}
+
+.nav {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 10vh;
+	width: 100vw;
+	background-color: var(--black);
+	color: var(--white);
+}
