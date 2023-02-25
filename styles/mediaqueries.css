@@ -1,0 +1,152 @@
+/* LAPTOPS */
+@media screen and (min-width: 800px) {
+	/*GENERAL COMPONENTS*/
+	.button--primary {
+		font-size: 0.9rem;
+		width: 25%;
+		z-index: 0;
+	}
+
+	.button--secondary {
+		font-size: 0.9rem;
+		width: 25%;
+		margin-left: 2rem;
+	}
+
+	/* NAV */
+	.nav {
+		justify-content: space-between;
+		height: 10vh;
+		width: 100vw;
+		padding: 0 5rem 0 5rem;
+	}
+
+	/* CONTENT */
+	.content {
+		padding: 0 5rem 0 5rem;
+	}
+
+	/* IMAGE BACKGROUND */
+	.cv-section.background {
+		top: 4rem;
+	}
+
+	.background-image {
+		width: 40%;
+	}
+
+	/* HERO SECTION */
+	.hero {
+		margin-top: 8rem;
+		margin-bottom: 7rem;
+		width: 75%;
+	}
+
+	.hero__text-column-wrapper {
+		flex-direction: row;
+		justify-content: start;
+		gap: 2rem;
+	}
+
+	.hero__title {
+		font-size: 2.5rem;
+		font-weight: 800;
+		letter-spacing: 1.5px;
+	}
+
+	.hero__text-paragraph {
+		font-size: 1.25rem;
+	}
+
+	.hero__text--subtitle {
+		font-size: 1.1rem;
+	}
+
+	.hero__text--link {
+		font-size: 1rem;
+	}
+
+	/* CARDS SECTION */
+
+	.cards-container {
+		margin: 5rem 0 5rem 0;
+		gap: 2rem;
+		flex-direction: row;
+	}
+
+	.card--section {
+		width: 30%;
+		gap: 3rem;
+		padding-left: 2.5rem;
+	}
+
+	.logo-item {
+		height: 2.5rem;
+	}
+
+	/* SERVICES SECTION */
+	.services {
+		margin: 5rem 0 5rem 0;
+	}
+
+	.services-title {
+		font-size: 2rem;
+	}
+
+	.services-container {
+		gap: 1rem;
+	}
+
+	.card--services {
+		height: 15rem;
+		width: 80%;
+	}
+
+	/* CONTACT SECTION */
+
+	.contact {
+		display: flex;
+		justify-content: center;
+		margin: 5rem 0 5rem 0;
+	}
+	.card--contact {
+		width: 80%;
+	}
+
+	.contact-item-container {
+		display: flex;
+		margin-top: 3rem;
+		justify-content: space-evenly;
+		align-items: center;
+		gap: 5rem;
+	}
+
+	.contact-item {
+		gap: 1rem;
+	}
+
+	.contact-title {
+		font-size: 3rem;
+	}
+
+	.contact-subtitle {
+		font-size: 1.25rem;
+		font-weight: 800rem;
+	}
+
+	.contact-description {
+		font-size: 1.5rem;
+	}
+
+	.contact-logos {
+		width: 2.5rem;
+	}
+}
+
+@media screen and (min-width: 1500px) {
+	.hero__text-column-wrapper {
+		flex-direction: row;
+		justify-content: start;
+		gap: 4rem;
+	}
+}
