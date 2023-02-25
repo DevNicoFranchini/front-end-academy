@@ -117,6 +117,7 @@
 		display: flex;
 		justify-content: center;
 		margin: 5rem 0 5rem 0;
+		z-index: 1;
 	}
 	.card--contact {
 		width: 80%;
@@ -144,6 +145,7 @@
 	}
 
 	.contact-description {
+		font-weight: bold;
 		font-size: 1.5rem;
 	}
 
