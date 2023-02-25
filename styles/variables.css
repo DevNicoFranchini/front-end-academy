@@ -1,81 +1,120 @@
 :root {
 	--color-white: rgb(248, 248, 248);
+	--color-white--2: rgb(227, 227, 227);
 	--color-black: rgba(5, 5, 5);
 	--color-grey: rgb(45, 45, 45);
-    --color-primary: #FFC13E;
+	--color-primary: #ffc13e;
 
-    --font-size-default: 15px;
-    --font-size-small: 13px;
+	--font-size-default: 15px;
+	--font-size-small: 13px;
 
-    --gap--small: 5px;
-    --gap--medium: 7px;
-    --gap--large: 12px;
-    
-    --space--small: 15px;
-    --space--medium: 20px;
-    --space--large: 35px;
+	--gap--small: 5px;
+	--gap--medium: 7px;
+	--gap--large: 12px;
+
+	--space--small: 15px;
+	--space--medium: 20px;
+	--space--large: 35px;
 }
 
 /*MARGINS*/
 
+.margin-top-small {
+	margin-top: var(--space--small);
+}
+
+.margin-top-medium {
+	margin-top: var(--space--medium);
+}
+
+.margin-top-large {
+	margin-top: var(--space--large);
+}
+
 .margin-bottom-small {
-    margin-bottom: var(--space--small);
+	margin-bottom: var(--space--small);
 }
 
 .margin-bottom-medium {
-    margin-bottom: var(--space--medium);
+	margin-bottom: var(--space--medium);
 }
 
 .margin-bottom-large {
-    margin-bottom: var(--space--large);
+	margin-bottom: var(--space--large);
 }
 
 /*PADDINGS*/
 
 .padding-small {
-    padding: var(--space--small);
+	padding: var(--space--small);
 }
 
 .padding-medium {
-    padding: var(--space--medium);
+	padding: var(--space--medium);
 }
 
 .padding-large {
-    padding: var(--space--large);
+	padding: var(--space--large);
 }
 
 .padding-bottom-small {
-    padding-bottom: var(--space--small);
+	padding-bottom: var(--space--small);
 }
 
 .padding-bottom-medium {
-    padding-bottom: var(--space--medium);
+	padding-bottom: var(--space--medium);
 }
 
 .padding-bottom-large {
-    padding-bottom: var(--space--large);
+	padding-bottom: var(--space--large);
 }
 
 .padding-left-small {
-    padding-left: var(--space--small);
+	padding-left: var(--space--small);
 }
 
 .padding-left-medium {
-    padding-left: var(--space--medium);
+	padding-left: var(--space--medium);
 }
 
 .padding-left-large {
-    padding-left: var(--space--large);
+	padding-left: var(--space--large);
 }
 
 .padding-right-small {
-    padding-right: var(--space--small);
+	padding-right: var(--space--small);
 }
 
 .padding-right-medium {
-    padding-right: var(--space--medium);
+	padding-right: var(--space--medium);
 }
 
 .padding-right-large {
-    padding-right: var(--space--large);
+	padding-right: var(--space--large);
+}
+
+/*FONTS*/
+
+.font-size-small {
+	font-size: 0.5rem;
+}
+
+.font-size-medium {
+	font-size: 0.8rem;
+}
+
+.font-size-large {
+	font-size: 1.25rem;
+}
+
+.font-size-small {
+	font-size: 100;
+}
+
+.font-weight-medium {
+	font-weight: 300;
+}
+
+.font-weight-large {
+	font-weight: 800;
 }
