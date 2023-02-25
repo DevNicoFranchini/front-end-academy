@@ -22,6 +22,8 @@
 
 	<body>
 		<header>
+			<!-- NAV BAR -->
+
 			<nav class="nav">
 				<div class="hamburger-container">
 					<input
@@ -37,8 +39,8 @@
 					<div class="drawer">
 						<ul class="nav-list">
 							<li class="nav-list-item"><a href="#hero">Home</a></li>
-							<!-- <li class="nav-list-item"><a href="#cards">Cards</a></li> -->
-							<!-- <li class="nav-list-item"><a href="#services">Services</a></li> -->
+							<li class="nav-list-item"><a href="#cards">Cards</a></li>
+							<li class="nav-list-item"><a href="#services">Services</a></li>
 							<!-- <li class="nav-list-item"><a href="#skills">Skills</a></li> -->
 							<!-- <li class="nav-list-item"><a href="#project">Projects</a></li> -->
 							<li class="nav-list-item"><a href="#contact">Contact</a></li>
@@ -47,19 +49,26 @@
 				</div>
 				<div class="logo">
 					<!-- <img src="https://academy.profesional.ticmas.io/favicon.ico" alt="academy-logo"> -->
-					<h2>Front End Academy</h2>
+					<a href="/index.html" class="a--white"
+						><h2>CV Nicolás Franchini</h2></a
+					>
 				</div>
 			</nav>
 		</header>
 
 		<main>
-			<div class="cv-section background">
-				<img
-					src="./imgs/nicolas.png"
-					alt="Nicolas Franchini"
-					class="background-image" />
-			</div>
+			<!-- PHOTO BACKGROUND -->
+
 			<div class="content">
+				<div class="cv-section background">
+					<img
+						src="./imgs/nicolas.png"
+						alt="Nicolas Franchini"
+						class="background-image" />
+				</div>
+
+				<!-- HERO SECTION -->
+
 				<section id="home" class="cv-section hero margin-bottom-medium">
 					<h1 class="hero__title margin-bottom-medium">
 						Hi! I'm Nicolas Franchini -
@@ -96,28 +105,100 @@
 						</button>
 					</div>
 				</section>
-				<!-- <section id="cards" class="cv-section cards"></section> -->
-				<!-- <section id="services" class="cv-section services"></section> -->
+
+				<!-- CARDS SECTION -->
+
+				<section
+					id="cards"
+					class="cv-section cards margin-top-large margin-bottom-large">
+					<div class="cards-container">
+						<div class="card card--section">
+							<div class="card--section--logo">
+								<img
+									src="./imgs/check.png"
+									alt="check-logo"
+									class="logo-item" />
+							</div>
+							<div class="card--section--text">
+								<p class="font-size-large font-weight-large">
+									Frontend Developer
+								</p>
+								<p class="font-size-medium font-weight-small">
+									Creating websites for you.
+								</p>
+							</div>
+						</div>
+						<div class="card card--section">
+							<div class="card--section--logo">
+								<img
+									src="./imgs/check.png"
+									alt="check-logo"
+									class="logo-item" />
+							</div>
+							<div class="card--section--text">
+								<p class="font-size-large font-weight-large">Productive</p>
+								<p class="font-size-medium font-weight-small">
+									Doing things to achieve our goals.
+								</p>
+							</div>
+						</div>
+						<div class="card card--section">
+							<div class="card--section--logo">
+								<img
+									src="./imgs/check.png"
+									alt="check-logo"
+									class="logo-item" />
+							</div>
+							<div class="card--section--text">
+								<p class="font-size-large font-weight-large">Freelancer</p>
+								<p class="font-size-medium font-weight-small">
+									You can hire me now.
+								</p>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<!-- SERVICES SECTION -->
+
+				<section id="services" class="cv-section services margin-top-medium">
+					<h2 class="services-title margin-bottom-medium">
+						What can I offer you?
+					</h2>
+					<div class="services-container">
+						<div class="card card--services card--services--html"></div>
+						<div class="card card--services card--services--css"></div>
+						<div class="card card--services card--services--js"></div>
+					</div>
+				</section>
+
 				<!-- <section id="skills" class="cv-section skills"></section> -->
 				<!-- <section id="projects" class="cv-section projects"></section> -->
-				<section id="contact" class="cv-section contact">
+
+				<!-- CONTACT SECTION -->
+
+				<section
+					id="contact"
+					class="cv-section contact margin-top-large margin-bottom-large">
 					<div>
-						<h2 class="margin-bottom-medium">Contact me!</h2>
-						<div class="card">
-                            <h2 class="contact-title">Let's Talk!</h2>
-                            <div class="contact-item"><img
-								src="./imgs/ring-phone.png"
-								alt="Phone"
-								class="contact-logos" />
-							<h4 class="contact-subtitle">Phone Me:</h4>
-							<h3 class="contact-description">+54 9 11 2345-6789</h3></div>
-							<div class="contact-item"><img
-								src="./imgs/linkedin.png"
-								alt="linkedin-logo"
-								class="contact-logos" />
-							<h4 class="contact-subtitle">Follow Me:</h4>
-							<h3 class="contact-description">dev-nicolas-franchini</h3></div>
-							
+						<div class="card card--contact">
+							<h2 class="contact-title">Let's Talk!</h2>
+							<div class="contact-item">
+								<img
+									src="./imgs/ring-phone.png"
+									alt="Phone"
+									class="contact-logos" />
+								<h4 class="contact-subtitle">Phone Me:</h4>
+								<h3 class="contact-description">+54 9 11 2345-6789</h3>
+							</div>
+							<div class="contact-item">
+								<img
+									src="./imgs/linkedin.png"
+									alt="linkedin-logo"
+									class="contact-logos" />
+								<h4 class="contact-subtitle">Follow Me:</h4>
+								<h3 class="contact-description">dev-nicolas-franchini</h3>
+							</div>
 						</div>
 					</div>
 				</section>
